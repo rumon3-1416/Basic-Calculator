@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="Calculator.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="calculator">
+            <div class="result-div">
+                <input class="result" id="result"></input>
+            </div>
+
+            <div class="btn-div">
+                <div class="line">
+                    <button class="btn btn-common" id="btn-c" value="">C</button>
+                    <button class="btn btn-common" id="btn-sqrt" value="sqrt"><i class="fa-solid fa-square-root-variable"></i></button>
+                    <button class="btn btn-common" id="btn-15" value="%">%</button>
+                    <button class="btn btn-gray" id="btn-14" value="/"><i class="fa-solid fa-divide"></i></button>
+                </div>
+
+                <div class="line">
+                    <button class="btn btn-common" id="btn-7" value="7">7</button>
+                    <button class="btn btn-common" id="btn-8" value="8">8</button>
+                    <button class="btn btn-common" id="btn-9" value="9">9</button>
+                    <button class="btn btn-gray" id="btn-13" value="*"><i class="fa-solid fa-x"></i></button>
+                </div>
+
+                <div class="line">
+                    <button class="btn btn-common" id="btn-4" value="4">4</button>
+                    <button class="btn btn-common" id="btn-5" value="5">5</button>
+                    <button class="btn btn-common" id="btn-6" value="6">6</button>
+                    <button class="btn btn-gray" id="btn-12" value="-"><i class="fa-solid fa-minus"></i></button>
+                </div>
+
+                <div class="line">
+                    <button class="btn btn-common" id="btn-1" value="1">1</button>
+                    <button class="btn btn-common" id="btn-2" value="2">2</button>
+                    <button class="btn btn-common" id="btn-3" value="3">3</button>
+                    <button class="btn btn-gray" id="btn-11" value="+"><i class="fa-solid fa-plus"></i></button>
+                </div>
+
+                <div class="line">
+                    <button class="btn btn-common" id="btn-0" value="0">0</button>
+                    <button class="btn btn-common" id="btn-10" value=".">.</button>
+                    <button class="btn btn-gray" id="btn-baSp" value="backspace"><i class="fa-solid fa-delete-left" ></i></button>
+                    <button class="btn btn-equal" id="btn-equal" value="="><i class="fa-solid fa-equals"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="Calculator.js"></script>
+</body>
+</html>
